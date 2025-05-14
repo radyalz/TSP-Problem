@@ -1,13 +1,13 @@
 # 🧭 TSP-Problem
 
-![GitHub Repo stars](https://img.shields.io/github/stars/yourusername/TSP-Problem?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/TSP-Problem?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/TSP-Problem)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/TSP-Problem)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/TSP-Problem)
-![GitHub license](https://img.shields.io/github/license/yourusername/TSP-Problem)
-![GitHub language top](https://img.shields.io/github/languages/top/yourusername/TSP-Problem)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/yourusername/TSP-Problem/ci.yml?label=CI&logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/radyalz/TSP-Problem?style=social)
+![GitHub forks](https://img.shields.io/github/forks/radyalz/TSP-Problem?style=social)
+![GitHub issues](https://img.shields.io/github/issues/radyalz/TSP-Problem)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/radyalz/TSP-Problem)
+![GitHub last commit](https://img.shields.io/github/last-commit/radyalz/TSP-Problem)
+![GitHub license](https://img.shields.io/github/license/radyalz/TSP-Problem)
+![GitHub language top](https://img.shields.io/github/languages/top/radyalz/TSP-Problem)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/radyalz/TSP-Problem/ci.yml?label=CI&logo=github)
 
 ---
 
@@ -37,8 +37,8 @@ Feel free to connect, fork, or contribute ideas!
 
 Want to suggest an algorithm, a resource, or fix a typo? Open an issue or a pull request:
 
-- 🔧 [Create an Issue](https://github.com/yourusername/TSP-Problem/issues)
-- 🔄 [Make a Pull Request](https://github.com/yourusername/TSP-Problem/pulls)
+- 🔧 [Create an Issue](https://github.com/radyalz/TSP-Problem/issues)
+- 🔄 [Make a Pull Request](https://github.com/radyalz/TSP-Problem/pulls)
 
 > 🙌 Contributions of all kinds are welcome — whether it's adding research, code, or just fixing typos!
 
