@@ -1,0 +1,9 @@
+/* Remove underline from h1 headings */
+h1 {
+  border-bottom: none;
+}
+
+/* Change color of links */
+a {
+  color: #ff6347;
+}
