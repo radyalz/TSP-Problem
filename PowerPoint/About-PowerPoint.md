@@ -1,13 +1,12 @@
-<div style="border-bottom: 2px solid #fff; padding-bottom: 5px;">
-  <p style="font-size: 28px; font-weight:bold; margin:0">ABOUT POWER POINT</p]>
-</div>
+# ABOUT POWER POINT
+___
 
 ## Fonts You May Need
 
 If you want to use the PowerPoint, remember you may need these fonts:
 
-- <a href="https://fonts.google.com/specimen/Exo+2" style="color:rgb(201, 51, 255);"><strong>Exo 2</strong></a>
-- <a href="https://fonts.google.com/specimen/Barlow" style="color:rgb(51, 146, 255);"><strong>Barlow</strong></a>
+- 🔗 [**Exo 2**](https://fonts.google.com/specimen/Exo+2)
+- 🔗 [**Barlow**](https://fonts.google.com/specimen/Barlow)
 
 ## Tip
 
