@@ -1,5 +1,4 @@
 # ABOUT POWER POINT
-***
 
 1. ## Fonts You May Need
 
