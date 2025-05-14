@@ -1,5 +1,16 @@
 # 🧭 TSP-Problem
 
+![GitHub Repo stars](https://img.shields.io/github/stars/yourusername/TSP-Problem?style=social)
+![GitHub forks](https://img.shields.io/github/forks/yourusername/TSP-Problem?style=social)
+![GitHub issues](https://img.shields.io/github/issues/yourusername/TSP-Problem)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/TSP-Problem)
+![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/TSP-Problem)
+![GitHub license](https://img.shields.io/github/license/yourusername/TSP-Problem)
+![GitHub language top](https://img.shields.io/github/languages/top/yourusername/TSP-Problem)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/yourusername/TSP-Problem/ci.yml?label=CI&logo=github)
+
+---
+
 Welcome to an in-depth research project on the **Traveling Salesman Problem (TSP)** — a classic optimization challenge in computer science, operations research, and artificial intelligence.
 
 This repo explores various algorithms, implementations, visualizations, and use-cases related to solving the TSP efficiently.
@@ -51,12 +62,12 @@ If you find this useful or interesting, please give it a ⭐️ on GitHub. It he
 
 ```bash
 └── 📁TSP-Problem
-    └── 📁MarkDowns
-        └── About-PowerPoint.md
-        └── To-Read.md
-    └── 📁PowerPoint
-        └── TSP Problem By Radyalz.pptx
-    └── LICENSE
-    └── README.md
+    ├── 📁MarkDowns
+    │   ├── About-PowerPoint.md
+    │   └── To-Read.md
+    ├── 📁PowerPoint
+    │   └── TSP Problem By Radyalz.pptx
+    ├── LICENSE
+    ├── README.md
     └── .gitignore
 ```
