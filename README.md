@@ -42,6 +42,12 @@ Want to suggest an algorithm, a resource, or fix a typo? Open an issue or a pull
 
 > 🙌 Contributions of all kinds are welcome — whether it's adding research, code, or just fixing typos!
 
+### issues
+
+- the english version and persion version of the power point are not made correctly (need fixing and yet we dont have english!)
+- i think the example code of python have some issue i have seen the result (beside ui and other stuff ) i think the genetic algorighm have some issue it looks like it works more like 2-opt or even nearest neighbor :smile:
+- i also have to double check all algorighm i was in a hurry i may have done some stuff wrong
+
 ---
 
 ## ⭐️ Favorite This Project

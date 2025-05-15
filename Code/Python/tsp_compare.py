@@ -5,7 +5,7 @@ import sys
 import random
 import time
 
-NUM_CITIES = 10
+NUM_CITIES = 5
 cities = np.random.rand(NUM_CITIES, 2) * 100
 
 def distance(a, b):
