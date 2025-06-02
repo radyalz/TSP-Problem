@@ -15,10 +15,7 @@ These constraints mean every city has exactly one incoming and one outgoing edge
 
 Additional subtour-elimination constraints are needed to prevent disconnected cycles; there are exponentially many such constraints (on the order of $\(2^n\))$.
 
-Altogether, the ILP is:
-$
-\text{minimize} \quad \sum_{i,j} c_{ij} x_{ij}, \quad x_{ij} \in \{0,1\},
-$
+Altogether, the ILP is: $\text{minimize} \quad \sum_{i,j} c_{ij} x_{ij}, \quad x_{ij} \in \{0,1\}$,
 subject to the “enter/leave once” constraints above and subtour-elimination constraints.
 
 ### Complexity
