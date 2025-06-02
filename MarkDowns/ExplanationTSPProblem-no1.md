@@ -1,14 +1,13 @@
 # The Traveling Salesman Problem (TSP): Theory, Algorithms, and Applications
 
-The Traveling Salesman Problem (TSP) asks: given a list of \( n \) cities and the distances (or costs) between each pair, find the shortest possible route that visits each city exactly once and returns to the starting city.  
-In graph-theoretic terms, we seek a minimum-cost Hamiltonian cycle in a weighted complete graph. A standard integer linear programming (ILP) formulation introduces binary variables \( x_{ij} = 1 \) if the tour goes from city \( i \) to \( j \), and 0 otherwise, and minimizes the total cost \( \sum_{i,j} c_{ij} x_{ij} \).
+The Traveling Salesman Problem (TSP) asks: given a list of \(n\) cities and the distances (or costs) between each pair, find the shortest possible route that visits each city exactly once and returns to the starting city.  
+In graph-theoretic terms, we seek a minimum-cost Hamiltonian cycle in a weighted complete graph. A standard integer linear programming (ILP) formulation introduces binary variables \(x_{ij}=1\) if the tour goes from city \(i\) to \(j\), and 0 otherwise, and minimizes the total cost \(\sum_{i,j} c_{ij}x_{ij}\).
 
 To ensure each city is entered and left exactly once, we enforce for each city \(j\):
-\[
-\sum*{i
-eq j} x*{ij} = 1, \quad \sum*{k
-eq j} x*{jk} = 1.
-\]
+$$
+\sum_{i \neq j} x_{ij} = 1, \quad \sum_{k \neq j} x_{jk} = 1.
+$$
+
 These constraints mean every city has exactly one incoming and one outgoing edge.
 
 ## Subtour Elimination
@@ -17,14 +16,14 @@ Additional subtour-elimination constraints are needed to prevent disconnected cy
 
 Altogether, the ILP is:
 \[
-ext{minimize} \;\sum*{i,j} c*{ij}x*{ij}, \quad x*{ij}\in\{0,1\},
+	ext{minimize} \;\sum_{i,j}  c_{ij}x_{ij}, \quad x_{ij}\in\{0,1\},
 \]
 subject to the “enter/leave once” constraints above and subtour-elimination constraints.
 
-## Complexity
+### Complexity
 
 Because of this combinatorial complexity, the TSP is NP-hard (the decision version is NP-complete).  
-The naive brute-force approach checks all \((n-1)!\) tours in \(O(n!)\) time, which is only feasible for very small \(n\). Even smarter exact methods (like the Held–Karp dynamic programming) take \(O(n^2 2^n)\) time.
+The naive brute-force approach checks all \((n-1)!\) tours in \(O(n!)\) time, which is only feasible for very small \(n\). Even smarter exact methods (like the Held–Karp dynamic programming) take \(O(n^2 2^n)\) time.  
 
 In practice, one often uses branch-and-bound or branch-and-cut methods (solving LP relaxations and adding cuts) to prune the search space. However, in the worst case, the complexity remains exponential, since there are about \((n-1)!\) possible tours.
 
@@ -60,7 +59,6 @@ Nonetheless, convex optimization ideas are used via relaxations, e.g., linear or
 ### Heuristics
 
 - **Nearest Neighbor**: Start at a city and repeatedly travel to the nearest unvisited city.
-
   - Time: \(O(n^2)\).
   - Typically 25% longer than optimal.
 
@@ -88,7 +86,6 @@ Nonetheless, convex optimization ideas are used via relaxations, e.g., linear or
 ## Example Python Implementations
 
 ### Nearest Neighbor Heuristic
-
 ```python
 import math
 points = [(0,0), (1,5), (5,2), (6,6), (8,3)]
@@ -113,7 +110,6 @@ print("Length:", sum(dist(points[tour[i]], points[tour[(i+1)%n]]) for i in range
 ```
 
 ### Simulated Annealing
-
 ```python
 import random, math
 
