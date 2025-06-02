@@ -19,9 +19,31 @@ This repo explores various algorithms, implementations, visualizations, and use-
 
 ## 🧾 Contents
 
-- 📖 [Reading List](./MarkDowns/To-Read.md) — curated research papers, articles, and learning resources.
+- 📚 [Reading List](./MarkDowns/To-Read.md) — curated research papers, articles, and learning resources.
+- 🗂️ [PDF Folders](./Pdfs) — in-depth ChatGPT searches summarizing what I’ve learned so far.
+- 📊 [Overview of TSP Problem (My Understanding)](./MarkDowns/ExplanationTSPProblem-no1.md) — a personal explanation of the Traveling Salesman Problem.
 - 📊 [About PowerPoint](./MarkDowns/About-PowerPoint.md) — font requirements, slide formatting, and visual design tips.
-- 💻 Code examples, algorithms, and notes coming soon!
+- 🐍 [Python Code](./Code/Python/) — comparison of 4 popular algorithms: brute force, genetic, nearest neighbor, and 2-opt.
+- 🛠️ [MATLAB Code](./Code/example.m) — coming soon!
+
+---
+
+## 💻 Code Usage
+
+The Python code includes implementations of four popular TSP algorithms:
+
+- Brute Force
+- Genetic Algorithm
+- Nearest Neighbor
+- 2-Opt Optimization
+
+To run the code smoothly:
+
+1. Navigate to the `Code/Python/` folder.
+2. Run the `run.bat` batch file to automatically install the required Python dependencies listed in `requirements.txt`.
+3. After installation, `run.bat` will execute the main script `run_project.py` which runs and compares all four algorithms.
+
+This setup makes it easy to get started without manually installing packages or running individual scripts.
 
 ---
 
@@ -42,11 +64,12 @@ Want to suggest an algorithm, a resource, or fix a typo? Open an issue or a pull
 
 > 🙌 Contributions of all kinds are welcome — whether it's adding research, code, or just fixing typos!
 
-### issues
+### ⚠️ Issues
 
-- the english version and persion version of the power point are not made correctly (need fixing and yet we dont have english!)
-- i think the example code of python have some issue i have seen the result (beside ui and other stuff ) i think the genetic algorighm have some issue it looks like it works more like 2-opt or even nearest neighbor :smile:
-- i also have to double check all algorighm i was in a hurry i may have done some stuff wrong
+- 🇬🇧 There’s no English version of the lecture (PowerPoint file in the PowerPoint folder).
+- 🐢 No progress in MATLAB yet because I’m still getting comfortable with it. 😊
+- 🐍 I need to double-check all the Python algorithms — I was in a hurry and might have made some mistakes.
+- 📄 The explanations in the markdown need more work — it’s not the best overview I’ve done. The in-depth ChatGPT search seems better. Both PDFs cover good talking points.
 
 ---
 
@@ -58,8 +81,8 @@ If you find this useful or interesting, please give it a ⭐️ on GitHub. It he
 
 ## 🧪 Coming Soon
 
-- 🧠 Visualizations using Python and NetworkX
-- 📈 Algorithm comparisons (Brute Force, Genetic, A\*, Simulated Annealing, etc.)
+- 🧠 Visualizations using MATLAB and NetworkX
+- 📈 Expanding upon the existing Python code
 - 🌐 Interactive GitHub Pages demo (if applicable)
 
 ---
@@ -68,12 +91,36 @@ If you find this useful or interesting, please give it a ⭐️ on GitHub. It he
 
 ```bash
 └── 📁TSP-Problem
-    ├── 📁MarkDowns
-    │   ├── About-PowerPoint.md
-    │   └── To-Read.md
-    ├── 📁PowerPoint
-    │   └── TSP Problem By Radyalz.pptx
-    ├── LICENSE
-    ├── README.md
-    └── .gitignore
+    └── 📁Code
+        └── example.m
+        └── 📁Python
+            └── requirements.txt
+            └── run_project.py
+            └── run.bat
+            └── tsp_compare.py
+            └── 📁tsp_env
+                └── basically a virtual env for python
+    └── 📁MarkDowns
+        └── About-PowerPoint.md
+        └── ExplanationTSPProblem-no1.md
+        └── To-Read.md
+        └── tsp_overview.md
+    └── 📁Pdfs
+        └── The Traveling Salesman Problem (TSP)_ Theory, Algorithms, and Applications.pdf
+        └── Traveling Salesman Problem (TSP)_ Foundations and Methods.pdf
+    └── 📁PowerPoint
+        └── 📁Images
+            └── 1_QdxLD95imf8VnrL5nlFHdQ.gif
+            └── 6n-graf.svg.png
+            └── Directed_graph_no_background.svg
+            └── Hamiltonian.png
+            └── Jogo_icosiano_01.jpg
+            └── Nearestneighbor.gif
+            └── Tehranshomallogo.png
+            └── Thomas_P_Kirkman.jpg
+            └── Weighted_K4.svg
+            └── William_Rowan_Hamilton_painting.jpg
+        └── TSP Problem By Radyalz.pptx
+    └── LICENSE
+    └── README.md
 ```
