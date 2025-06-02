@@ -1,7 +1,7 @@
 # The Traveling Salesman Problem (TSP): Theory, Algorithms, and Applications
 
 The Traveling Salesman Problem (TSP) asks: given a list of \(n\) cities and the distances (or costs) between each pair, find the shortest possible route that visits each city exactly once and returns to the starting city.  
-In graph-theoretic terms, we seek a minimum-cost Hamiltonian cycle in a weighted complete graph. A standard integer linear programming (ILP) formulation introduces binary variables \(x_{ij}=1\) if the tour goes from city \(i\) to \(j\), and 0 otherwise, and minimizes the total cost \(\sum_{i,j} c_{ij} x_{ij}\).
+In graph-theoretic terms, we seek a minimum-cost Hamiltonian cycle in a weighted complete graph. A standard integer linear programming (ILP) formulation introduces binary variables $\(x_{ij}=1\)$ if the tour goes from city \(i\) to \(j\), and 0 otherwise, and minimizes the total cost $\(\sum_{i,j} c_{ij} x_{ij}\)$.
 
 To ensure each city is entered and left exactly once, we enforce for each city \(j\):
 
