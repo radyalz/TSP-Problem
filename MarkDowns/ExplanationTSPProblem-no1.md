@@ -4,9 +4,9 @@ The Traveling Salesman Problem (TSP) asks: given a list of \(n\) cities and the 
 In graph-theoretic terms, we seek a minimum-cost Hamiltonian cycle in a weighted complete graph. A standard integer linear programming (ILP) formulation introduces binary variables \(x_{ij}=1\) if the tour goes from city \(i\) to \(j\), and 0 otherwise, and minimizes the total cost \(\sum_{i,j} c_{ij}x_{ij}\).
 
 To ensure each city is entered and left exactly once, we enforce for each city \(j\):
-$$
+$
 \sum_{i \neq j} x_{ij} = 1, \quad \sum_{k \neq j} x_{jk} = 1.
-$$
+$
 
 These constraints mean every city has exactly one incoming and one outgoing edge.
 
